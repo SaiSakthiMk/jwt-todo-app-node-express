@@ -24,3 +24,37 @@ Users can **sign up, sign in, create todos, and view their todos** securely.
 ---
 
 ## 📂 Project Structure
+.
+├── server.js # Main Express server
+├── db.js # Mongoose models for User & Todo
+├── package.json # Dependencies
+└── README.md # Documentation
+
+
+---
+
+## ⚙️ Setup & Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/your-username/jwt-todo-app-node-express.git
+   cd jwt-todo-app-node-express
+
+
+Install dependencies
+
+npm install
+
+
+Create a .env file and add your secrets:
+
+MONGO_URL=mongodb+srv://<your-user>:<your-pass>@cluster0.mongodb.net/todo
+JWT_SECRET=your-secret-key
+
+
+Start the server
+
+node server.js
+
+
+The server will run at: http://localhost:3000
